@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign up</title>
+        <link href="../AC.css/style.css" rel="stylesheet">    
+    </head>
+    <body>
+        <header class="header">
+            <h1 id="main-title">Sign up</h1>
+            <nav class="header-nav">
+                <a href="index.html">Home</a>
+                <a href="episods.html">Watch some episodes</a> 
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign up</a>
+            </nav>
+            <img src="../AC.photos/rt.png" alt="" width="1335" height="366">
+            <form action="accuille.html">
+                <fieldset>
+                    <legend>Personal infos</legend>
+                    <div>
+                        <label for="Name"> Name  </label> 
+                        <input type="text" required id="Name" >
+                    </div>
+                    <div>
+                        <label for="FName"> Family Name</label>
+                        <input type="text" required id="FName" >
+                    </div>
+                    <div>
+                        <label for="username"> username </label>
+                        <input type="text" required id="username">
+                    </div>
+                        <div>
+                        <label for="age">Age</label> 
+                        <input type="number" required id="age" min="15" max="30">
+                    </div>
+                    <div>
+                        <label for="email"> Email</label>
+                        <input type="email" id="email" required placeholder="exemple123@gmail.com">
+                    </div>
+                    <div>
+                        <label for="mdp"> Password</label>
+                        <input type="password" required placeholder="********" id="mdp">
+                    </div>
+                    <div>
+                        <label for="language">In which subtitle you like to watch the anime </label>
+                        <select name="language" id="language" required>
+                            <option value="">French</option>
+                            <option >Arabic</option>
+                            <option >English</option>
+                        </select>
+                    </div>
+                    
+                </fieldset>
+                <button type="submit">Sign up</button>
+                </p>
+            </form>
+        </header>
+    </body>
+</html>
